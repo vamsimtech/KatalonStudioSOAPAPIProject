@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Test Suite 1" time="13" tests="2" failures="0" errors="0">
+    <testsuite name="Test Suite 1" tests="2" failures="0" errors="0" time="13" timestamp="2019-10-21 12:54:07" hostname="vamsipc - HP-Laptop" id="Test Suites/Test Suite 1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="E:\\vamsi_programs_2019\\6_katalon_studio_programs\\Sample SOAP API Testing Project\\Reports\\20191021_125358\\Test Suite 1\\20191021_125358"/>
+            <property name="logFiles" value="E:\\vamsi_programs_2019\\6_katalon_studio_programs\\Sample SOAP API Testing Project\\Reports\\20191021_125358\\Test Suite 1\\20191021_125358\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="vamsipc - HP-Laptop"/>
+            <property name="hostAddress" value="172.26.192.1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.2.1"/>
+        </properties>
+        <testcase name="Test Cases/TestOne" classname="Test Cases/TestOne" status="PASSED">
+            <system-out>2019-10-21 12:54:07 - [TEST_CASE][PASSED] - Test Cases/TestOne: Test Cases/TestOne&#xD;
+&#xD;
+2019-10-21 12:54:08 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("CountryInfoSOAPService/GetCountryListByNames")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-21 12:54:14 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_125358\Test Suite 1\20191021_125358\requests\main\0.har&#xD;
+&#xD;
+2019-10-21 12:54:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-21 12:54:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-21 12:54:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-21 12:54:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-10-21 12:54:15 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-21 12:54:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null&#xD;
+&#xD;
+2019-10-21 12:54:15 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-21 12:54:15 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/TestTwo_APIChaining" classname="Test Cases/TestTwo_APIChaining" status="PASSED">
+            <system-out>2019-10-21 12:54:15 - [TEST_CASE][PASSED] - Test Cases/TestTwo_APIChaining: Test Cases/TestTwo_APIChaining&#xD;
+&#xD;
+2019-10-21 12:54:16 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCountryListByNames")): Send request successfully&#xD;
+&#xD;
+2019-10-21 12:54:18 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_125358\Test Suite 1\20191021_125358\requests\main\1.har&#xD;
+&#xD;
+2019-10-21 12:54:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-21 12:54:18 - [TEST_STEP][PASSED] - xml1 = responseBodyContent: null&#xD;
+&#xD;
+2019-10-21 12:54:18 - [TEST_STEP][PASSED] - dataValue = XmlSlurper().parseText(xml1): null&#xD;
+&#xD;
+2019-10-21 12:54:18 - [TEST_STEP][PASSED] - countryCode = sISOCode.text(): null&#xD;
+&#xD;
+2019-10-21 12:54:18 - [TEST_STEP][PASSED] - countryCode = countryCode: null&#xD;
+&#xD;
+2019-10-21 12:54:18 - [TEST_STEP][PASSED] - println("....Value for Global variable is :" + countryCode): null&#xD;
+&#xD;
+2019-10-21 12:54:18 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CountryInfoSOAPService/GetCapital")): Send request successfully&#xD;
+&#xD;
+2019-10-21 12:54:20 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_125358\Test Suite 1\20191021_125358\requests\main\2.har&#xD;
+&#xD;
+2019-10-21 12:54:20 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-21 12:54:07 - [TEST_SUITE][INCOMPLETE] - Test Suite 1: null</system-out>
+        <system-err>2019-10-21 12:54:07 - [TEST_SUITE][INCOMPLETE] - Test Suite 1: null</system-err>
+    </testsuite>
+</testsuites>

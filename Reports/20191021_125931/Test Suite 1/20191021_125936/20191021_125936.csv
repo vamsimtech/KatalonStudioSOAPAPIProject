@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,,,,2019-10-21 12:59:43,2019-10-21 13:00:02,18.663s,INCOMPLETE
+,,,,,,,
+Test Cases/TestOne,,,,2019-10-21 12:59:45,2019-10-21 12:59:57,12.379s,PASSED
+"sendRequestAndVerify(findTestObject(""CountryInfoSOAPService/GetCountryListByNames""))",,,,2019-10-21 12:59:46,2019-10-21 12:59:57,10.795s,PASSED
+,,,,,,,
+Test Cases/TestTwo_APIChaining,,,,2019-10-21 12:59:57,2019-10-21 13:00:02,5.057s,PASSED
+"response1 = sendRequest(findTestObject(""CountryInfoSOAPService/GetCountryListByNames""))",,,,2019-10-21 12:59:58,2019-10-21 12:59:59,1.670s,PASSED
+xml1 = responseBodyContent,,,,2019-10-21 12:59:59,2019-10-21 13:00:00,0.743s,PASSED
+dataValue = XmlSlurper().parseText(xml1),,,,2019-10-21 13:00:00,2019-10-21 13:00:00,0.096s,PASSED
+countryCode = sISOCode.text(),,,,2019-10-21 13:00:00,2019-10-21 13:00:00,0.109s,PASSED
+countryCode = countryCode,,,,2019-10-21 13:00:00,2019-10-21 13:00:00,0.157s,PASSED
+"println(""....Value for Global variable is :"" + countryCode)",,,,2019-10-21 13:00:00,2019-10-21 13:00:00,0.010s,PASSED
+"sendRequest(findTestObject(""CountryInfoSOAPService/GetCapital""))",,,,2019-10-21 13:00:00,2019-10-21 13:00:02,1.657s,PASSED

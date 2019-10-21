@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="DataDrivenTestingDemoSuite" time="15" tests="3" failures="0" errors="0">
+    <testsuite name="DataDrivenTestingDemoSuite" tests="3" failures="0" errors="0" time="15" timestamp="2019-10-21 14:06:45" hostname="vamsipc - HP-Laptop" id="Test Suites/DataDrivenTestingDemoSuite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="E:\\vamsi_programs_2019\\6_katalon_studio_programs\\Sample SOAP API Testing Project\\Reports\\20191021_140635\\DataDrivenTestingDemoSuite\\20191021_140635"/>
+            <property name="logFiles" value="E:\\vamsi_programs_2019\\6_katalon_studio_programs\\Sample SOAP API Testing Project\\Reports\\20191021_140635\\DataDrivenTestingDemoSuite\\20191021_140635\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="vamsipc - HP-Laptop"/>
+            <property name="hostAddress" value="172.26.192.1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.2.1"/>
+        </properties>
+        <testcase name="Test Cases/DataDrivenTestDemo" classname="Test Cases/DataDrivenTestDemo" status="PASSED">
+            <system-out>2019-10-21 14:06:46 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTestDemo: Test Cases/DataDrivenTestDemo&#xD;
+&#xD;
+2019-10-21 14:06:47 - [TEST_STEP][PASSED] - println("value of countrycode is" + CountryCode): null&#xD;
+&#xD;
+2019-10-21 14:06:47 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCapital", ["CountryCode":CountryCode])): Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:52 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_140635\DataDrivenTestingDemoSuite\20191021_140635\requests\main\0.har&#xD;
+&#xD;
+2019-10-21 14:06:52 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:52 - [TEST_STEP][PASSED] - println("value of Capital is" + Capital): null&#xD;
+&#xD;
+2019-10-21 14:06:52 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:06:53 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:06:53 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("CountryInfoSOAPService/GetCurrency", ["CountryCode":CountryCode])): Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:54 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_140635\DataDrivenTestingDemoSuite\20191021_140635\requests\main\1.har&#xD;
+&#xD;
+2019-10-21 14:06:54 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:54 - [TEST_STEP][PASSED] - println("value of Currency1 is" + Currency1): null&#xD;
+&#xD;
+2019-10-21 14:06:54 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", Currency1): Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:06:55 - [MESSAGE][PASSED] - Verify element text successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/DataDrivenTestDemo" classname="Test Cases/DataDrivenTestDemo" status="PASSED">
+            <system-out>2019-10-21 14:06:55 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTestDemo: Test Cases/DataDrivenTestDemo&#xD;
+&#xD;
+2019-10-21 14:06:55 - [TEST_STEP][PASSED] - println("value of countrycode is" + CountryCode): null&#xD;
+&#xD;
+2019-10-21 14:06:55 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCapital", ["CountryCode":CountryCode])): Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:56 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_140635\DataDrivenTestingDemoSuite\20191021_140635\requests\main\2.har&#xD;
+&#xD;
+2019-10-21 14:06:56 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:56 - [TEST_STEP][PASSED] - println("value of Capital is" + Capital): null&#xD;
+&#xD;
+2019-10-21 14:06:56 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:06:56 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:06:56 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("CountryInfoSOAPService/GetCurrency", ["CountryCode":CountryCode])): Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:58 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_140635\DataDrivenTestingDemoSuite\20191021_140635\requests\main\3.har&#xD;
+&#xD;
+2019-10-21 14:06:58 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:58 - [TEST_STEP][PASSED] - println("value of Currency1 is" + Currency1): null&#xD;
+&#xD;
+2019-10-21 14:06:58 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", Currency1): Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:06:58 - [MESSAGE][PASSED] - Verify element text successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/DataDrivenTestDemo" classname="Test Cases/DataDrivenTestDemo" status="PASSED">
+            <system-out>2019-10-21 14:06:58 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTestDemo: Test Cases/DataDrivenTestDemo&#xD;
+&#xD;
+2019-10-21 14:06:58 - [TEST_STEP][PASSED] - println("value of countrycode is" + CountryCode): null&#xD;
+&#xD;
+2019-10-21 14:06:58 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("CountryInfoSOAPService/GetCapital", ["CountryCode":CountryCode])): Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:59 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_140635\DataDrivenTestingDemoSuite\20191021_140635\requests\main\4.har&#xD;
+&#xD;
+2019-10-21 14:06:59 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-21 14:06:59 - [TEST_STEP][PASSED] - println("value of Capital is" + Capital): null&#xD;
+&#xD;
+2019-10-21 14:06:59 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:06:59 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:06:59 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("CountryInfoSOAPService/GetCurrency", ["CountryCode":CountryCode])): Send request successfully&#xD;
+&#xD;
+2019-10-21 14:07:00 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\Sample SOAP API Testing Project\Reports\20191021_140635\DataDrivenTestingDemoSuite\20191021_140635\requests\main\5.har&#xD;
+&#xD;
+2019-10-21 14:07:00 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-21 14:07:00 - [TEST_STEP][PASSED] - println("value of Currency1 is" + Currency1): null&#xD;
+&#xD;
+2019-10-21 14:07:00 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", Currency1): Verify element text successfully&#xD;
+&#xD;
+2019-10-21 14:07:00 - [MESSAGE][PASSED] - Verify element text successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-21 14:06:45 - [TEST_SUITE][INCOMPLETE] - DataDrivenTestingDemoSuite: null</system-out>
+        <system-err>2019-10-21 14:06:45 - [TEST_SUITE][INCOMPLETE] - DataDrivenTestingDemoSuite: null</system-err>
+    </testsuite>
+</testsuites>

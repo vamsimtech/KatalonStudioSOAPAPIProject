@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/DataDrivenTestDemo - Iteration 1","testCaseId":"Test Cases/DataDrivenTestDemo","bindedValues":{"Currency1":"\u0027Rupees\u0027","Capital":"\u0027New Delhi\u0027","CountryCode":"\u0027IN\u0027"}}
+{"testCaseName":"Test Cases/DataDrivenTestDemo - Iteration 2","testCaseId":"Test Cases/DataDrivenTestDemo","bindedValues":{"Currency1":"\u0027Dollars\u0027","Capital":"\u0027Washington\u0027","CountryCode":"\u0027US\u0027"}}
+{"testCaseName":"Test Cases/DataDrivenTestDemo - Iteration 3","testCaseId":"Test Cases/DataDrivenTestDemo","bindedValues":{"Currency1":"\u0027Dong\u0027","Capital":"\u0027Hanoi\u0027","CountryCode":"\u0027VN\u0027"}}

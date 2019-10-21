@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestTwo_APIChaining</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d1b2070-e435-4ee6-acb7-d06bef6291fe</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2a7d9c3-d392-42e0-b295-f0db6d197c3a</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
